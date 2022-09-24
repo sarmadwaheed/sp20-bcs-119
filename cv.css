@@ -1,0 +1,14 @@
+#a{position :fixed;top: 0px;left: 0px; width:1050px;text-align: center;height:300px;background-color:rgba(128, 128, 128, 0.486);}
+#b{text-align: center;position: relative;bottom: 20px;}
+#c{height: 50px;}
+#d{text-align: left}
+#e{width:1370px;}
+#f{float: right;width:320px;height: 236px;}
+#g{height: 440px;width: 1050px;background-color: grey ;}
+#h{text-align: center;}
+#i{text-align: left;position: relative;left: 10px;}
+#z{position: relative;bottom: 16px;}
+#k{background-color: black;width: 1570px;height: 100px; float: right;}
+#l{background-color: rgba(0, 0, 0, 0.925);width: 325px;height: 420px; float: left;position: fixed;left: 1049px;top: 237px;}
+#j{text-align: center;color:aqua;}
+#p{color: rgb(136, 255, 0);}
