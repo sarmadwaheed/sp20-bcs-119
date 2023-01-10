@@ -1,0 +1,6 @@
+{
+  "jwtPrivateKey": "myPrivateKey",
+  "db": "mongodb://sarmad:sarmad@ac-cyjlvh6-shard-00-00.zh5p4w6.mongodb.net:27017,ac-cyjlvh6-shard-00-01.zh5p4w6.mongodb.net:27017,ac-cyjlvh6-shard-00-02.zh5p4w6.mongodb.net:27017/?ssl=true&replicaSet=atlas-12ndye-shard-0&authSource=admin&retryWrites=true&w=majority",
+  "port": "4000",
+  "sessionSecret": "MySessionSecret"
+}

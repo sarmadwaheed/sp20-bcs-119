@@ -1,0 +1,100 @@
+ <nav class="navbar navbar-expand-lg"
+ style="background-color: #0d1635;width:1350px;">
+  <div class="container-fluid">
+    <img src="Capture.PNG" height="70px" width="180px" />
+    
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/" style="color: white">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="/contact-us" class="nav-link" style="color: white">Contact Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            style="color: white"
+          >
+            Matches
+          </a>
+          <ul class="dropdown-menu">
+            <li>
+              <a
+                class="dropdown-item"
+                href="https://www.google.com/search?q=pak+vs+eng&oq=PAK+VS+ENG&aqs=chrome.0.0i131i433i512l2j0i3l2j0i131i433i512l6.2639j0j15&sourceid=chrome&ie=UTF-8"
+                >#PAK VS ENG</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                href="https://www.google.com/search?q=ind+vs+aus&sxsrf=ALiCzsYf9wCBw2LG_x4l39jjBNg1bw3LVA%3A1664539889415&ei=8dw2Y5D2GM-SsAfTj5uABQ&oq=IND&gs_lcp=Cgdnd3Mtd2l6EAEYADIKCAAQsQMQgwEQQzIKCAAQsQMQgwEQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzoKCAAQRxDWBBCwAzoHCAAQsAMQQzoNCAAQ5AIQ1gQQsAMYAToMCC4QyAMQsAMQQxgCOgQIIxAnOgsIABCABBCxAxCDAToICAAQsQMQgwE6BwgjEOoCECc6BwguEOoCECc6BAguECc6BAguEENKBAhBGABKBAhGGAFQ6gRY2BZgniVoAnABeASAAdUCiAGNEpIBBTItNS4zmAEAoAEBsAEKyAETwAEB2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz"
+                >#IND VS AUS</a
+              >
+            </li>
+            <li><hr class="dropdown-divider" /></li>
+            <li>
+              <a class="dropdown-item" href="#">#T2O WCUP AUSTRALIA</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="/cart" style="color: white"
+            >ICC Shop
+          </a>
+        </li>
+       
+        <% if(isAdmin) {%>
+        <li class="nav-item">
+          <a href="/admin" class="nav-link" style="color: white">Admin Panel</a>
+        </li>
+        <% } %> <% if(!user) {%>
+        <li class="nav-item">
+          <a href="/login" class="nav-link" style="color: white">Login</a>
+        </li>
+       
+        
+      </ul>
+        <% }else { %>
+        <li class="nav-item">
+          <a href="/logout" class="nav-link" style="color: white">Logout</a>
+
+          
+        </li>
+        
+
+        <% } %>
+      </ul>
+
+      
+      <form class="d-flex" role="search">
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-success" type="submit">
+          Search
+        </button>
+      </form>
+    </div>
+  </div>
+</nav> 

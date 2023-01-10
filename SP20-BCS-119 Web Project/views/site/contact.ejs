@@ -1,0 +1,55 @@
+
+<h1>Contact Us</h1>
+<form class="row g-3">
+  
+<form action="/contact-us" method="POST" class="row g-3">
+  <div class="col-md-4">
+    <label for="validationDefault01" class="form-label">Name</label>
+    <input type="text" class="form-control" id="validationDefault01" value="Babar Azam" required>
+  </div>
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputquery" class="form-label">Query</label>
+      <input type="text" class="form-control" id="inputquery">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Address</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="Lords London">
+    </div>
+    
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">Country</label>
+      <select id="inputState" class="form-select">
+        <option selected>Pakistan</option>
+        <option>India</option>
+      </select>
+    </div>
+    
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Check me out
+        </label>
+      </div>
+    </div>
+    <label class="form-check-label" for="invalidCheck3">
+        Agree to terms and conditions
+      </label>
+      <div id="invalidCheck3Feedback" class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </form>
+
+<%-contentFor("footer") %>
+<p>My Address is CUI</p>
